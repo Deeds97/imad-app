@@ -5,7 +5,7 @@ console.log('Loaded!');
 var img = document.getElementById('nadi');
 var marginLeft = 0;
 function moveRight(){
-  marginLeft = marginLeft + 10;
+  marginLeft = marginLeft + 30;
   img.style.marginLeft = marginLeft + 'px';
 }
 img.onclick = function(){
