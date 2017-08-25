@@ -3,6 +3,11 @@ console.log('Loaded!');
 // Move the image
 
 var img = document.getElementById('nadi');
+var marginLeft = 0;
+function moveRight(){
+  marginLeft = marginLeft + 10;
+  img.style.marginLeft = marginLeft + 'px';
+}
 img.onclick = function(){
-   img.style.marginleft ='100px'; 
+    var interval = setInterval(moveRight,100);
 };
